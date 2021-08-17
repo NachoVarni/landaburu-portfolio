@@ -25,12 +25,12 @@ export default function Hero() {
       />
       <Contact
         divStyle="mx-3 mt-12 self-start md:col-start-1 md:row-start-3 md:self-start md:mt-5"
-        titleStyle="text-grayDetails font-semibold text-sm mb-8"
+        titleStyle="text-grayDetails font-semibold text-sm mb-4"
         pStyle="text-lg"
       />
       <Services
         divStyle="mx-3 self-start mt-12 md:col-start-1 md:row-start-4 md:self-start md:-mt-16"
-        titleStyle="text-grayDetails font-semibold text-sm mb-8"
+        titleStyle="text-grayDetails font-semibold text-sm mb-4"
         pStyle="text-lg"
       />
       <About
