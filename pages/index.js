@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Adventadges from "../components/Advantadges";
+import Education from "../components/Education";
 
 export default function Home() {
   return (
@@ -15,9 +17,11 @@ export default function Home() {
           rel="stylesheet"
         /> */}
       </Head>
-      <div className="md:w-5/6 md:m-auto">
+      <div className="md:w-5/6 md:m-auto font-poppins">
         <Navbar />
         <Hero />
+        <Adventadges />
+        <Education />
       </div>
     </div>
   );

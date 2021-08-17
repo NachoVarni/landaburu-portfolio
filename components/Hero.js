@@ -13,7 +13,7 @@ export default function Hero() {
         <h2>Based in Argentina</h2>
       </div>
 
-      <div className="h-96 -ml-12 mt-12 flex relative  md:col-start-2 md:self-start md:row-start-2 md:row-span-2 md:h-full">
+      <div className="h-96 w-full -ml-8 mt-12 flex relative  md:col-start-2 md:self-start md:row-start-2 md:row-span-2 md:h-full">
         <Image src="/landa-complete.png" layout="fill" objectFit="contain" />
       </div>
 
