@@ -5,12 +5,12 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <header className="flex md:grid md:grid-cols-3  text-grayText items-center">
+    <header className="flex relative md:grid md:grid-cols-3 font-poppins text-grayText items-center">
       <div className="hidden md:flex py-5 ml-5 space-x-3">
         <p>WORK</p>
         <p>CONTACT</p>
       </div>
-      <div className="py-5 mx-auto font-semibold fon">
+      <div className="col-start-2 py-5 mx-auto font-semibold ">
         <p>JUAN PABLO LANDABURU</p>
       </div>
       <div className="hidden md:flex justify-self-end	mr-5 space-x-3">
@@ -21,7 +21,7 @@ export default function Navbar() {
           <Image src="/linkedin.png" layout="fill" />
         </div>
       </div>
-      <div className="w-7 h-7 relative flex justify-self-end	mr-5 md:hidden">
+      <div className="w-6 h-6 absolute right-5 flex justify-self-end md:hidden">
         <Image src="/hamburguer.png" layout="fill" />
       </div>
     </header>
