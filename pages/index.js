@@ -15,7 +15,7 @@ export default function Home() {
           rel="stylesheet"
         /> */}
       </Head>
-      <div className="md:w-3/4 md:m-auto">
+      <div className="md:w-5/6 md:m-auto">
         <Navbar />
         <Hero />
       </div>
