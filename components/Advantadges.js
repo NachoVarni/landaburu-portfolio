@@ -38,18 +38,32 @@ export default function Advantadges() {
       <p className="text-4xl text-center mb-8 text-grayText font-lora font-bold">
         My Advantage
       </p>
-      <div className="flex flex-col w-full md:flex-row md:space-x-3 md:pt-20">
+      <div className="flex flex-col w-full md:flex-row md:pt-20">
         <div
-          className="md:w-1/6"
+          className="md:w-1/6 md:mx-2"
           onMouseEnter={handleFigma}
           onMouseLeave={handleFigma}
         >
-          <div className="flex relative h-96 ">
+          <div className="flex relative h-96 md:hover:scale-105">
             <Image
-              src="/figma-color.png"
+              src={`/figma.png`}
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out md:grayscale md:hover:scale-110 md:hover:grayscale-0"
+              className={
+                !figma
+                  ? ` transition duration-300 ease-in-out opacity-100`
+                  : `opacity-0`
+              }
+            />
+            <Image
+              src={`/figma-color.png`}
+              layout="fill"
+              objectFit="contain"
+              className={
+                figma
+                  ? `opacity-100 transition duration-300 ease-in-out`
+                  : `opacity-0`
+              }
             />
           </div>
           <p
@@ -61,7 +75,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6"
+          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
           onMouseEnter={handleIllustrator}
           onMouseLeave={handleIllustrator}
         >
@@ -70,7 +84,7 @@ export default function Advantadges() {
               src="/ilustrator-color.png"
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out md:grayscale md:hover:scale-110 md:hover:grayscale-0"
+              className="transition duration-300 ease-in-out  md:grayscale md:hover:grayscale-0"
             />
           </div>
           <p
@@ -82,7 +96,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6"
+          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
           onMouseEnter={handlePhotoshop}
           onMouseLeave={handlePhotoshop}
         >
@@ -91,7 +105,7 @@ export default function Advantadges() {
               src="/photoshop-color.png"
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out md:grayscale md:hover:scale-110 md:hover:grayscale-0"
+              className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
           <p
@@ -103,7 +117,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6"
+          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
           onMouseEnter={handleAfterEffects}
           onMouseLeave={handleAfterEffects}
         >
@@ -112,7 +126,7 @@ export default function Advantadges() {
               src="/afterEffects-color.png"
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out md:grayscale md:hover:scale-110 md:hover:grayscale-0"
+              className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
           <p
@@ -124,7 +138,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6"
+          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
           onMouseEnter={handleHtml}
           onMouseLeave={handleHtml}
         >
@@ -133,7 +147,7 @@ export default function Advantadges() {
               src="/html-color.png"
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out md:grayscale md:hover:scale-110 md:hover:grayscale-0"
+              className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
           <p
@@ -145,7 +159,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6"
+          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
           onMouseEnter={handleInDesign}
           onMouseLeave={handleInDesign}
         >
@@ -154,7 +168,7 @@ export default function Advantadges() {
               src="/inDesign-color.png"
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out md:grayscale md:hover:scale-110 md:hover:grayscale-0"
+              className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
           <p
