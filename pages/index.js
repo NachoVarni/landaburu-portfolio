@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Adventadges from "../components/Advantadges";
 import Education from "../components/Education";
 import Projects from "../components/Projects";
-import Carousel from "../components/Carousel";
+import FindMe from "../components/FindMe";
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ export default function Home() {
         <Adventadges />
         <Education />
         <Projects />
+        <FindMe />
       </div>
     </div>
   );

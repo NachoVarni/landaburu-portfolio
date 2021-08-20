@@ -32,7 +32,7 @@ export default function SlickCarousel() {
     // ),
   };
   return (
-    <div className="px-3 md:hidden">
+    <div className="px-3 md:hidden pb-8">
       <Slider {...settings}>
         <div className="flex flex-col px-3">
           <div className="h-96 relative w-full">
