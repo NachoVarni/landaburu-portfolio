@@ -4,7 +4,7 @@ export default function Education() {
       <p className="text-4xl text-center text-grayText font-lora font-bold">
         Education & Experience
       </p>
-      <div className="flex flex-col pl-3 md:pl-0 md:flex-row w-full justify-between pt-20">
+      <div className="flex flex-col  md:pl-0 md:flex-row w-full justify-between pt-20">
         <div>
           <span className="text-grayDetails text-sm">2012</span>
           <p className="text-pink font-semibold mt-8">

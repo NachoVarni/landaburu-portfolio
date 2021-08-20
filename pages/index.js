@@ -5,6 +5,7 @@ import Adventadges from "../components/Advantadges";
 import Education from "../components/Education";
 import Projects from "../components/Projects";
 import FindMe from "../components/FindMe";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,13 +20,14 @@ export default function Home() {
           rel="stylesheet"
         /> */}
       </Head>
-      <div className="md:w-5/6 md:m-auto font-poppins">
+      <div className="w-11/12 md:w-5/6 m-auto font-poppins">
         <Navbar />
         <Hero />
         <Adventadges />
         <Education />
         <Projects />
         <FindMe />
+        <Footer />
       </div>
     </div>
   );
