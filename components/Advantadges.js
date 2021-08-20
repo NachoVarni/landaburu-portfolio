@@ -44,26 +44,12 @@ export default function Advantadges() {
           onMouseEnter={handleFigma}
           onMouseLeave={handleFigma}
         >
-          <div className="flex relative h-96 md:hover:scale-105">
+          <div className="flex relative h-96">
             <Image
-              src={`/figma.png`}
+              src="/figma-color.png"
               layout="fill"
               objectFit="contain"
-              className={
-                !figma
-                  ? ` transition duration-300 ease-in-out opacity-100`
-                  : `opacity-0`
-              }
-            />
-            <Image
-              src={`/figma-color.png`}
-              layout="fill"
-              objectFit="contain"
-              className={
-                figma
-                  ? `opacity-100 transition duration-300 ease-in-out`
-                  : `opacity-0`
-              }
+              className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
           <p
@@ -75,16 +61,16 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
+          className="md:w-1/6 md:mx-2 "
           onMouseEnter={handleIllustrator}
           onMouseLeave={handleIllustrator}
         >
-          <div className="relative h-96 ">
+          <div className="flex relative h-96">
             <Image
               src="/ilustrator-color.png"
               layout="fill"
               objectFit="contain"
-              className="transition duration-300 ease-in-out  md:grayscale md:hover:grayscale-0"
+              className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
           <p
@@ -96,7 +82,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
+          className="md:w-1/6 md:mx-2"
           onMouseEnter={handlePhotoshop}
           onMouseLeave={handlePhotoshop}
         >
@@ -117,7 +103,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
+          className="md:w-1/6 md:mx-2 "
           onMouseEnter={handleAfterEffects}
           onMouseLeave={handleAfterEffects}
         >
@@ -138,7 +124,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
+          className="md:w-1/6 md:mx-2"
           onMouseEnter={handleHtml}
           onMouseLeave={handleHtml}
         >
@@ -159,7 +145,7 @@ export default function Advantadges() {
           </p>
         </div>
         <div
-          className="md:w-1/6 md:mx-2 transform md:hover:scale-105"
+          className="md:w-1/6 md:mx-2"
           onMouseEnter={handleInDesign}
           onMouseLeave={handleInDesign}
         >

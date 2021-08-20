@@ -1,10 +1,10 @@
 export default function Education() {
   return (
-    <div className="text-lg text-grayText">
+    <div className="border-t mt-16 pt-8 border-grayDetails text-lg text-grayText">
       <p className="text-4xl text-center text-grayText font-lora font-bold">
         Education & Experience
       </p>
-      <div className="flex flex-col pl-3 md:flex-row w-full justify-between pt-20">
+      <div className="flex flex-col pl-3 md:pl-0 md:flex-row w-full justify-between pt-20">
         <div>
           <span className="text-grayDetails text-sm">2012</span>
           <p className="text-pink font-semibold mt-8">
@@ -21,7 +21,7 @@ export default function Education() {
           <p className="font-semibold mt-8">Graphic & Web Designer</p>
           <p>ElPixel Agency</p>
         </div>
-        <div className="mt-8">
+        <div className="">
           <span className="text-grayDetails text-sm">2019 - 2020</span>
           <p className="font-semibold mt-8">Graphic & Web Designer</p>
           <p>Digitalycs Agency</p>
@@ -34,7 +34,7 @@ export default function Education() {
           <p className="text-pink font-semibold mt-8">English Course</p>
           <p>Centro Universitario de Idiomas</p>
         </div>
-        <div className="mt-8">
+        <div className="">
           <span className="text-grayDetails text-sm">2021 - PRESENT</span>
           <p className="text-pink font-semibold mt-8">
             Graphic Designer Degree

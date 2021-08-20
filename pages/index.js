@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Adventadges from "../components/Advantadges";
 import Education from "../components/Education";
+import Projects from "../components/Projects";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -22,6 +24,7 @@ export default function Home() {
         <Hero />
         <Adventadges />
         <Education />
+        <Projects />
       </div>
     </div>
   );
