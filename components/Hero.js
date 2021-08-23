@@ -7,7 +7,7 @@ import About from "./About";
 export default function Hero() {
   return (
     <div className="flex flex-col relative items-center md:grid md:grid-cols-3  md:grid-rows-4 text-grayText font-poppins">
-      <div className="flex flex-col pt-24 text-3xl md:col-start-2  md:self-start items-center font-lora font-bold md:text-center">
+      <div className="flex flex-col text-center pt-24 text-3xl md:col-start-2  md:self-start items-center font-lora font-bold ">
         <h2>Juan Pablo Landaburu</h2>
         <h2>UX/UI Designer</h2>
         <h2>Based in Argentina</h2>
