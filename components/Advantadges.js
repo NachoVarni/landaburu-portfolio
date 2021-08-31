@@ -71,7 +71,7 @@ export default function Advantadges() {
               src="/illustrator-color.png"
               layout="fill"
               objectFit="contain"
-              alt="ilustrator"
+              alt="illustrator"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
