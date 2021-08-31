@@ -15,14 +15,19 @@ export default function Navbar() {
       </div>
       <div className="hidden md:flex justify-self-end space-x-3">
         <div className="w-7 h-7 relative">
-          <Image src="/behance-logo.png" layout="fill" alt='behance' />
+          <Image src="/behance-logo.png" layout="fill" alt="behance" />
         </div>
         <div className="w-7 h-7 relative">
-          <Image src="/linkedin.png" layout="fill" alt='linkedin' />
+          <Image src="/linkedin.png" layout="fill" alt="linkedin" />
         </div>
       </div>
       <div className="w-6 h-6 absolute right-0 flex justify-self-end md:hidden">
-        <Image src="/hamburguer.png" layout="fill" alt='menu' />
+        <Image
+          src="/hamburguer.png"
+          layout="fill"
+          objectFit="contain"
+          alt="menu"
+        />
       </div>
     </header>
   );
