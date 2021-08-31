@@ -10,6 +10,7 @@ export default function FindMe() {
             src="/contact-me.png"
             layout="fill"
             objectFit="contain"
+            alt="contact"
             className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
           />
         </a>

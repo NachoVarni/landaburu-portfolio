@@ -13,12 +13,11 @@ export default function Home() {
       <Head>
         <title>Shuamp</title>
         <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap"
-          rel="stylesheet"
-        /> */}
+        <meta
+          name="description"
+          content="Juan Pablo Landaburu's personal page"
+        />
+        <meta property="og:title" content="My personal page" />
       </Head>
       <div className="w-11/12 md:w-5/6 m-auto font-poppins">
         <Navbar />

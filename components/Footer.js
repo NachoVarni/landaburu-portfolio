@@ -7,10 +7,10 @@ export default function Footer() {
       <p className="mx-auto">JUANPI.LANDABURU@GMAIL.COM</p>
       <div className="flex mt-8 md:mt-0 md:justify-end">
         <div className="w-7 h-7 relative mr-4">
-          <Image src="/behance-logo.png" layout="fill" />
+          <Image src="/behance-logo.png" layout="fill" alt="behance" />
         </div>
         <div className="w-7 h-7 relative">
-          <Image src="/linkedin.png" layout="fill" />
+          <Image src="/linkedin.png" layout="fill" alt="linkedin" />
         </div>
       </div>
     </div>

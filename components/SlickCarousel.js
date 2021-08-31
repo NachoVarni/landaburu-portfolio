@@ -36,7 +36,12 @@ export default function SlickCarousel() {
       <Slider {...settings}>
         <div className="flex flex-col px-3">
           <div className="h-96 relative w-full">
-            <Image src="/GOPRO-color.png" layout="fill" objectFit="contain" />
+            <Image
+              src="/GOPRO-color.png"
+              layout="fill"
+              objectFit="contain"
+              alt="gopro"
+            />
           </div>
           <p className="font-semibold  text-grayDetails text-sm">
             UX/UI DESIGN
@@ -48,7 +53,12 @@ export default function SlickCarousel() {
 
         <div className="flex flex-col px-3">
           <div className="h-96 relative w-full">
-            <Image src="/ICBC-color.png" layout="fill" objectFit="contain" />
+            <Image
+              src="/ICBC-color.png"
+              layout="fill"
+              objectFit="contain"
+              alt="icbc"
+            />
           </div>
           <p className="font-semibold  text-grayDetails text-sm">
             UX/UI DESIGN
@@ -63,6 +73,7 @@ export default function SlickCarousel() {
               src="/MAXICONSUMO-color.png"
               layout="fill"
               objectFit="contain"
+              alt="maxiconsumo"
             />
           </div>
           <p className="font-semibold  text-grayDetails text-sm">

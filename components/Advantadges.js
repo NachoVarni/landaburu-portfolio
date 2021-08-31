@@ -49,6 +49,7 @@ export default function Advantadges() {
               src="/figma-color.png"
               layout="fill"
               objectFit="contain"
+              alt="figma"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -67,9 +68,10 @@ export default function Advantadges() {
         >
           <div className="flex relative h-96">
             <Image
-              src="/ilustrator-color.png"
+              src="/illustrator-color.png"
               layout="fill"
               objectFit="contain"
+              alt="ilustrator"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -91,6 +93,7 @@ export default function Advantadges() {
               src="/photoshop-color.png"
               layout="fill"
               objectFit="contain"
+              alt="photoshop"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -112,6 +115,7 @@ export default function Advantadges() {
               src="/afterEffects-color.png"
               layout="fill"
               objectFit="contain"
+              alt="afterEffects"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -133,6 +137,7 @@ export default function Advantadges() {
               src="/html-color.png"
               layout="fill"
               objectFit="contain"
+              alt="html"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -154,6 +159,7 @@ export default function Advantadges() {
               src="/inDesign-color.png"
               layout="fill"
               objectFit="contain"
+              alt="inDesign"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>

@@ -35,6 +35,7 @@ export default function Projects() {
               src="/MAXICONSUMO-color.png"
               layout="fill"
               objectFit="contain"
+              alt="maxiconsumo"
               className="text-left justify-self-start transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -59,6 +60,7 @@ export default function Projects() {
               src="/GOPRO-color.png"
               layout="fill"
               objectFit="contain"
+              alt="gopro"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
@@ -83,6 +85,7 @@ export default function Projects() {
               src="/ICBC-color.png"
               layout="fill"
               objectFit="contain"
+              alt="icbc"
               className="transition duration-300 ease-in-out transform md:grayscale  md:hover:grayscale-0"
             />
           </div>
